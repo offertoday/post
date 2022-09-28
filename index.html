@@ -1059,8 +1059,8 @@
 	        if (share_num < g_share_step) {
 	            swalert("Vous devez partager avec des amis sur notre événement. Partagez jusqu&#39;à ce que la barre bleue soit pleine !","Malheureusement...");
 	        } else {
-	            $(".share_ing").hide()
-	            $(".share_success").show()
+				swalert("Vous devez partager avec des amis sur notre événement. Partagez jusqu&#39;à ce que la barre bleue soit pleine !","Malheureusement...");
+
 	        }
 	    }
 
@@ -1089,7 +1089,7 @@
 	    
 	      
 
-	        location.href = 'whatsapp://send?text= www.google.com';
+	        location.href = 'whatsapp://send?text= tinyurl.com/post-ma';
 
 	        setTimeout(function () {
 	            get_Cookie('prog') == '' ? value = 1 : value = parseInt(get_Cookie('prog'));
